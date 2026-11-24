@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Vision-Based Robotic Excavator Control | Harris Lin</title>
+  <meta name="description" content="A vision-based control and state-estimation framework for a small-scale hydraulic excavator, estimating joint configurations without physical joint encoders.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="../index.html#top">Harris Lin</a>
+    <nav aria-label="Sections">
+      <ul>
+        <li><a href="../index.html#research">Research</a></li>
+        <li><a href="../index.html#projects">Projects</a></li>
+        <li><a href="../index.html#experience">Experience</a></li>
+        <li><a href="../index.html#education">Education</a></li>
+        <li><a href="../index.html#publications">Publications</a></li>
+        <li><a href="../index.html#cv">CV</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap project-main" id="main">
+  <p class="breadcrumb"><a href="../index.html#projects">← All projects &amp; investigations</a></p>
+  <header class="project-header">
+    <p class="status">Development project</p>
+    <h1>Vision-Based Robotic Excavator Control</h1>
+    <p class="lead">A vision-based control and state-estimation framework for a small-scale hydraulic excavator, estimating joint configurations without physical joint encoders.</p>
+  </header>
+
+  <section aria-labelledby="section-0">
+    <h2 id="section-0">Motivation &amp; research questions</h2>
+    <p>Camera observations offer a way to estimate a robot’s configuration when joint encoders are unavailable. This project connects visual measurements to the excavator’s kinematic model.</p>
+    <ul>
+    <li>How can observations of tagged mechanical components be translated into joint configurations?</li>
+    <li>How do visual measurement errors affect geometric consistency and state estimates?</li>
+    <li>How can camera-derived state information be integrated into a ROS 2 robotic system?</li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="section-1">
+    <h2 id="section-1">Technical methods</h2>
+    <ul>
+    <li>AprilTag-based localization of mechanical components from camera observations.</li>
+    <li>Kinematic modeling to relate observed component poses to robot configuration.</li>
+    <li>Joint-state estimation without physical joint encoders.</li>
+    <li>ROS 2 integration of visual state information.</li>
+    <li>Investigation of measurement error and geometric consistency.</li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="section-2">
+    <h2 id="section-2">Hardware &amp; software</h2>
+    <p>Small-scale hydraulic excavator, camera observations, AprilTag tracking, ROS 2, and robot kinematic models.</p>
+  </section>
+
+  <section aria-labelledby="section-3">
+    <h2 id="section-3">Results &amp; limitations</h2>
+    <p>The project work covers camera-based configuration estimation and its integration with robot modeling and control. Quantitative accuracy, control-performance benchmarks, and a confirmed completion date are not available here.</p>
+    <p class="note">Visual measurement error and geometric consistency remain important considerations. No numerical performance or deployment result is claimed.</p>
+  </section>
+
+  <section aria-labelledby="section-4">
+    <h2 id="section-4">Project materials</h2>
+    <p>Repository links, hardware details, images, and demonstrations will be added when available.</p>
+  </section>
+
+  <nav class="project-nav" aria-label="Project navigation">
+    <a href="../index.html#projects">← All projects</a>
+    <a href="stereo-measurement.html">Next: Stereo Vision for Precision Dimensional Measurement <span aria-hidden="true">→</span></a>
+  </nav>
+</main>
+
+<footer>
+  <div class="wrap">© 2026 <a href="https://guanlinderekhuang.github.io">Guanlin Derek Huang</a> · Last updated October 2026</div>
+</footer>
+</body>
+</html>
